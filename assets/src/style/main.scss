@@ -1,0 +1,48 @@
+// Переопределение дефолтных значений переменных Bootstrap 3 и определение своих
+@import "variables";
+
+// Подключение нужных SCSS исходников Bootstrap 3
+@import "../../../node_modules/bootstrap/scss/_alert";
+@import "../../../node_modules/bootstrap/scss/_badges";
+@import "../../../node_modules/bootstrap/scss/_breadcrumbs";
+@import "../../../node_modules/bootstrap/scss/_button-groups";
+@import "../../../node_modules/bootstrap/scss/_buttons";
+@import "../../../node_modules/bootstrap/scss/_carousel";
+@import "../../../node_modules/bootstrap/scss/_close";
+@import "../../../node_modules/bootstrap/scss/_code";
+@import "../../../node_modules/bootstrap/scss/_component-animations";
+@import "../../../node_modules/bootstrap/scss/_dropdowns";
+@import "../../../node_modules/bootstrap/scss/_forms";
+@import "../../../node_modules/bootstrap/scss/_glyphicons";
+@import "../../../node_modules/bootstrap/scss/_grid";
+@import "../../../node_modules/bootstrap/scss/_input-groups";
+@import "../../../node_modules/bootstrap/scss/_jumbotron";
+@import "../../../node_modules/bootstrap/scss/_labels";
+@import "../../../node_modules/bootstrap/scss/_list-group";
+@import "../../../node_modules/bootstrap/scss/_media";
+@import "../../../node_modules/bootstrap/scss/_mixins";
+@import "../../../node_modules/bootstrap/scss/_modals";
+@import "../../../node_modules/bootstrap/scss/_navbar";
+@import "../../../node_modules/bootstrap/scss/_navs";
+@import "../../../node_modules/bootstrap/scss/_normalize";
+@import "../../../node_modules/bootstrap/scss/_pager";
+@import "../../../node_modules/bootstrap/scss/_pagination";
+@import "../../../node_modules/bootstrap/scss/_panels";
+@import "../../../node_modules/bootstrap/scss/_popovers";
+@import "../../../node_modules/bootstrap/scss/_print";
+@import "../../../node_modules/bootstrap/scss/_progress-bars";
+@import "../../../node_modules/bootstrap/scss/_responsive-embed";
+@import "../../../node_modules/bootstrap/scss/_responsive-utilities";
+@import "../../../node_modules/bootstrap/scss/_scaffolding";
+@import "../../../node_modules/bootstrap/scss/_tables";
+@import "../../../node_modules/bootstrap/scss/_theme";
+@import "../../../node_modules/bootstrap/scss/_thumbnails";
+@import "../../../node_modules/bootstrap/scss/_tooltip";
+@import "../../../node_modules/bootstrap/scss/_type";
+@import "../../../node_modules/bootstrap/scss/_utilities";
+@import "../../../node_modules/bootstrap/scss/_variables";
+@import "../../../node_modules/bootstrap/scss/_wells";
+
+
+// Подключение своих SCSS файлов
+@import "my";
